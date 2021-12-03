@@ -69,11 +69,15 @@ int main()
 
 	customer[0].setName("Barry");
 	customer[0].setBankID(1999);
-	customer[0].setPasscode(6969);
+	customer[0].setPasscode(2255);
 
 	customer[1].setName("Lindsey");
 	customer[1].setBankID(7);
 	customer[1].setPasscode(77);
+
+	customer[2].setName("Gary");
+	customer[2].setBankID(3108);
+	customer[2].setPasscode(7133);
 
 	while (enteredID != -1)
 	{
