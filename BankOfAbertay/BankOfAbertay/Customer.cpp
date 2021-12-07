@@ -1,6 +1,6 @@
 #include "Customer.h"
 
-Customer::Customer()
+Customer::Customer():accountPtr(NULL), name("Unknown"), bankID(0), passcode(0)
 {
 
 }

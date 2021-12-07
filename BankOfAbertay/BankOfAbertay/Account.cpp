@@ -1,9 +1,8 @@
 #include "Account.h"
 
-Account::Account()
+Account::Account() 
+	: balance(0), overdraftLimit(0)
 {
-	balance = 0;
-	overdraftLimit = 0;
 }
 
 Account::~Account()

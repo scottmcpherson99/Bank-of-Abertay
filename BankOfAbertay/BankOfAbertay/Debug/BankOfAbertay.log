@@ -1,6 +1,5 @@
 ﻿  Account.cpp
-C:\Users\sm_99\Documents\GitHub Repositories\Bank-of-Abertay\BankOfAbertay\BankOfAbertay\Account.cpp(46,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\sm_99\Documents\GitHub Repositories\Bank-of-Abertay\BankOfAbertay\BankOfAbertay\Account.cpp(45,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   Customer.cpp
-  Source.cpp
   Generating Code...
   BankOfAbertay.vcxproj -> C:\Users\sm_99\Documents\GitHub Repositories\Bank-of-Abertay\BankOfAbertay\Debug\BankOfAbertay.exe
