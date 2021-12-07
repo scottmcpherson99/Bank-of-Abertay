@@ -17,7 +17,7 @@ void Customer::setName(std::string name_)
 }
 
 //return the customers name
-std::string Customer::getName()
+std::string Customer::getName()const
 {
 	return name;
 }
@@ -31,7 +31,7 @@ void Customer::setBankID(int ID_)
 
 
 //get the customers bank id
-int Customer::getBankID()
+int Customer::getBankID()const
 {
 	return bankID;
 }
@@ -44,7 +44,7 @@ void Customer::setPasscode(int passcode_)
 }
 
 //get the customers pin
-int Customer::getPasscode()
+int Customer::getPasscode()const
 {
 	return passcode;
 }

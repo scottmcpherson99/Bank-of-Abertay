@@ -8,13 +8,13 @@ public:
 	Customer();
 	~Customer();
 
-	std::string getName();
+	std::string getName()const;
 	void setName(std::string name_);
 
-	int getBankID();
+	int getBankID()const;
 	void setBankID(int ID_);
 
-	int getPasscode();
+	int getPasscode()const;
 	void setPasscode(int passcode_);
 
 	Account& GetAccount(int accountNumber);

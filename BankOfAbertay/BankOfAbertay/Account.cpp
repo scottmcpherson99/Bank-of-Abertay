@@ -12,7 +12,7 @@ Account::~Account()
 }
 
 //return the accounts balance
-float Account::GetBalance()
+float Account::GetBalance()const
 {
 	return balance;
 }
@@ -41,14 +41,14 @@ void Account::Deposit(float amount)
 
 
 //Calculate the interest the account coul get
-float Account::CalculateInterest()
+float Account::CalculateInterest()const
 {
 	return balance * 0.1;
 }
 
 
 //Check if the customer can take a loan out
-bool Account::CanTakeLoan(float loanAmount_)
+bool Account::CanTakeLoan(float loanAmount_)const
 {
 	if (loanAmount_ < balance * 2)
 	{
